@@ -1,7 +1,4 @@
 # _**A CODE WITH NO PURPOSE AND THE CODE**_
-<iframe width="100%" height="600px" style="border:none;background:white;" src="https://macoutreach.rocks/share/9267b362">
-
-
 module TestCode exposing (..)
 
 import GraphicSVG exposing (..)
@@ -132,6 +129,9 @@ main = gameApp Tick { model = init, view = view, update = update, title = "Game 
 
 view model =
     collage 192 128 (myShapes model)
+    
+<iframe width="100%" height="600px" style="border:none;background:white;" src="https://macoutreach.rocks/share/9267b362">
+
     
 ## There are always ways to have, even during quarantine fun whether it be by Making games or Playing them!
 ##  **Have Fun**
